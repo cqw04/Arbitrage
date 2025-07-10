@@ -1,0 +1,22 @@
+{
+  "exchanges": ["binance", "bybit", "okx"],
+  "symbols": ["BTC/USDT", "ETH/USDT", "SOL/USDT", "ADA/USDT"],
+  "update_interval": 30,
+  "min_profit_threshold": 0.002,
+  "min_funding_diff": 0.001,
+  "api_keys": {
+    "binance": {
+      "api_key": "",
+      "secret_key": ""
+    },
+    "bybit": {
+      "api_key": "",
+      "secret_key": ""
+    },
+    "okx": {
+      "api_key": "",
+      "secret_key": "",
+      "passphrase": ""
+    }
+  }
+} 

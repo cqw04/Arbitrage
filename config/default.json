@@ -1,0 +1,75 @@
+{
+  "exchanges": {
+    "backpack": {
+      "api_key": "BACKPACK_API_KEY",
+      "secret_key": "BACKPACK_SECRET_KEY",
+      "maker_fee": 0.0002,
+      "taker_fee": 0.0005
+    },
+    "binance": {
+      "api_key": "BINANCE_API_KEY",
+      "secret_key": "BINANCE_SECRET_KEY",
+      "maker_fee": 0.0002,
+      "taker_fee": 0.0005
+    },
+    "bybit": {
+      "api_key": "BYBIT_API_KEY",
+      "secret_key": "BYBIT_SECRET_KEY",
+      "maker_fee": 0.0002,
+      "taker_fee": 0.00055
+    },
+    "okx": {
+      "api_key": "OKX_API_KEY",
+      "secret_key": "OKX_SECRET_KEY",
+      "passphrase": "OKX_PASSPHRASE",
+      "maker_fee": 0.0002,
+      "taker_fee": 0.0005
+    },
+    "bitget": {
+      "api_key": "BITGET_API_KEY",
+      "secret_key": "BITGET_SECRET_KEY", 
+      "passphrase": "BITGET_PASSPHRASE",
+      "maker_fee": 0.0002,
+      "taker_fee": 0.0006
+    },
+    "gateio": {
+      "api_key": "GATEIO_API_KEY",
+      "secret_key": "GATEIO_SECRET_KEY",
+      "maker_fee": 0.0002,
+      "taker_fee": 0.0005
+    },
+    "mexc": {
+      "api_key": "MEXC_API_KEY",
+      "secret_key": "MEXC_SECRET_KEY",
+      "maker_fee": 0.0002,
+      "taker_fee": 0.0005
+    }
+  },
+  "trading": {
+    "symbols": [],
+    "max_total_exposure": 10000,
+    "max_single_position": 2000,
+    "min_spread_threshold": 0.001,
+    "extreme_rate_threshold": 0.001,
+    "min_profit_threshold": 0.0001,
+    "update_interval": 30,
+    "position_timeout_hours": 8.5
+  },
+  "risk": {
+    "max_drawdown_pct": 5.0,
+    "stop_loss_pct": 2.0,
+    "max_correlation": 0.7,
+    "min_confidence_score": 0.6,
+    "daily_loss_limit": 500
+  },
+  "system": {
+    "log_level": "INFO",
+    "log_file": "funding_arbitrage.log",
+    "database_url": "sqlite:///funding_arbitrage.db",
+    "enable_web_interface": true,
+    "web_port": 8080,
+    "enable_telegram_alerts": false,
+    "telegram_bot_token": "",
+    "telegram_chat_id": ""
+  }
+}

@@ -1,0 +1,12 @@
+# 環境變數配置示例
+# 複製此文件為 .env 並填入真實的 API 憑證
+
+# Backpack Exchange API 憑證
+BACKPACK_API_KEY=your_backpack_api_key_here
+BACKPACK_SECRET_KEY=your_backpack_secret_key_here
+
+# 使用方法:
+# 1. 將此文件重命名為 .env
+# 2. 替換 your_backpack_api_key_here 為實際的 API Key
+# 3. 替換 your_backpack_secret_key_here 為實際的 Secret Key
+# 4. 運行測試: python test_mmsimple_backpack.py 

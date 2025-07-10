@@ -1,0 +1,72 @@
+# 資金費率套利系統 - 依賴包
+
+# 核心依賴
+aiohttp==3.8.4
+websockets==11.0.3
+asyncio-mqtt==0.13.0
+numpy==1.24.3
+pandas==2.0.2
+python-dotenv==1.0.0
+ed25519==1.5
+requests==2.31.0
+ccxt==4.0.74
+websocket-client==1.6.1
+rich==13.4.2
+
+# WebSocket 增強依賴
+websocket-client>=1.6.0
+python-socketio>=5.8.0
+aiodns>=3.0.0
+cchardet>=2.1.7
+
+# Web界面和Flask相關
+Flask>=2.3.0
+Flask-SocketIO>=5.3.0
+eventlet>=0.33.0
+
+# 郵件通知
+aiosmtplib>=2.0.0
+
+# 性能監控和優化
+psutil>=5.9.0
+
+# 加密和安全
+PyNaCl>=1.5.0
+cryptography>=41.0.0
+
+# 數據處理和分析
+scipy>=1.10.0
+
+# 額外工具
+uvloop>=0.17.0  # Linux/macOS性能提升
+schedule>=1.2.0  # 定時任務
+
+# 新增依賴
+argparse
+click>=8.0.0
+tabulate>=0.9.0
+pydantic>=2.0.0
+scipy>=1.10.0
+cryptography>=3.4.8
+python-dateutil>=2.8.0
+pyyaml>=6.0
+
+# Web 界面 (可選)
+flask>=2.3.0
+flask-socketio>=5.3.0
+
+# 通知功能 (可選)
+python-telegram-bot>=20.0
+
+# 數據庫驅動 (可選)
+psycopg2-binary>=2.9.0
+
+# 性能優化 (可選)
+uvloop>=0.17.0
+orjson>=3.8.0
+
+# 開發工具 (可選)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0 
